@@ -1,0 +1,923 @@
+/*-----------------------------
+ colour,font and variables setup
+ ------------------------------*/
+:root{
+
+   --font-base:"poppins",sans-serif;
+
+}
+body {
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #FFF7EA;
+    width: 100% ;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-base);
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: aquamarine;
+}
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navbar-dark{
+    background-color:000000;
+}
+.navbar-brand{
+    width: 90px;
+    height: 90px;
+}
+
+
+/*-----------------------------
+ button css  setup
+ ------------------------------*/
+
+
+ /*-----------------------------
+ navbar css setup
+ ------------------------------*/
+ .navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 500;
+    width: 9vw;
+    height: 12vh;   
+ }
+ .navbar .btn{
+    margin-top: 3px;
+    margin-left: 70%;
+    
+ }
+
+ /*-----------------------------
+hero css setup
+ ------------------------------*/
+.hero-section {
+   background-color: #FFF7EA;
+  
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 40;
+    
+}
+.first {
+    height: 450px;
+    margin-left: 60%;
+    margin-bottom: -3%;
+    position: absolute;
+    z-index: 2;
+    
+  
+}
+.blend {
+    height: 200px;
+   margin-left: 7%;
+   margin-top: 40%;
+   margin-bottom: 10%;
+   position: absolute;
+   z-index: 1;
+}
+.blend1 {
+   margin-left: 62%;
+  height: 300px;
+  margin-top: -10%;
+   position: absolute;
+   
+}
+.text1 {
+    position: absolute;
+  
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -70%;
+    margin-top: -250px;
+   
+    text-align:left;
+}
+.text1 span {
+    color: #FF6B00;
+    font-weight: 700;
+}
+.text2{
+    margin-left: -930px;
+}
+.hero-section .btn{
+    margin-bottom: -200px;
+    margin-left: -1200px;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+}
+.first1 {
+    height: 450px;
+    margin-left: 30%;
+    margin-bottom: -3%;
+    position: absolute;
+    z-index: 2;
+    
+}
+ /*-----------------------------
+feacture css setup
+ ------------------------------*/
+ .feacture-section {
+    background-color: whitesmoke;
+  
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 40;
+    }
+.feacture1, .feacture2, .feacture3 {
+    position: absolute;}
+.feacture1 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -70%;
+    margin-top: -200px;
+
+}
+.feacture2 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+   
+    margin-top: -250px;
+}
+.feacture3 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+
+   margin-left: 500px;
+   margin-top: -60px;
+}
+.feacture1 span, .feacture2 span, .feacture3 span {
+    color: black;
+    font-weight: 700;
+    font-size: 15PX;
+}
+
+.l1{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FF6B00;
+    margin-left: -1400px;
+    margin-top: -230px;
+}
+.l2{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FF6B00;
+    margin-left: -300px;
+    margin-top: -230px;
+}
+.l3{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FF6B00;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.gird{
+  
+    margin-top: 550px;
+}
+.im1{
+    position: absolute;
+    width:350px;
+    height: 350px;
+    margin-left: -520px;
+   margin-bottom: -1000px;
+   
+}
+.vadan{
+    position: absolute;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -100px;
+    margin-top: 160px;
+    text-align: right;
+    text-decoration: double;
+    font-style: italic;
+    font-family: var(--Cursive-font, Cursive);
+}
+ /*-----------------------------
+carousel css setup
+ ------------------------------*/
+
+.carousel-item {
+    position: relative;
+    width: 400px;  
+    height: 400px;
+    margin: 0 auto;
+    align-items: center;
+
+
+    
+
+    
+
+}
+.gird{
+    
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 9500px;
+    height: 150px;
+}
+ /*-----------------------------
+feacture section 2 css setup
+ ------------------------------*/
+ .fs2{
+    width: 450px;
+    height: 450px;
+    margin-top: 15px;
+    margin-left: 120px;
+    position: relative;
+   
+    
+ }
+ .line1{
+    position: absolute;
+   margin-left: 90px;
+   margin-top: 80px;
+    background-color: #FF6B00;
+    
+
+}
+.fs-text1{
+    position: absolute;
+   font-weight: bold;
+   font-family: Monospace;
+    margin-left: 700px;
+    margin-top: -330px;
+    text-decoration: underline;
+}
+.fs-text2{
+    position: absolute;
+    font-weight: 500;
+    font-family: var(Serif	-font, Serif);
+    margin-left: 700px;
+    margin-top: -300px;
+    width: 600px;
+    line-height: 1.5;
+    color: #000000;
+    
+}
+.fs-text3{
+    position: absolute;
+    font-weight: bold;
+    font-family: Monospace;
+    margin-left: 700px;
+    margin-top: -200px;
+    text-decoration: underline;
+}
+.fs-text4{
+    position: absolute;
+    font-weight: 500;
+    font-family: var(Serif	-font, Serif);
+    margin-left: 700px;
+    margin-top: -170px;
+    width: 600px;
+    line-height: 1.5;
+   color: dark black;
+}
+.fs-text5{
+    position: absolute;
+    font-weight: bold;
+    font-family: Monospace;
+    margin-left: 1100px;
+    margin-top: -205px;
+    text-decoration: underline;
+}
+.fs-text6{
+    position: absolute;
+    font-weight: 500;
+    font-family: var(Serif	-font, Serif);
+    margin-left: 1100px;
+    margin-top: -170px;
+    width: 600px;
+    line-height: 1.5;
+    color: #000000;
+}
+/*-----------------------------
+feacture section 3 css setup
+ ------------------------------*/
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: var(Serif	-font, Serif);
+    text-decoration: underline;
+    font-weight: bold;
+    color: navy;
+}
+.menu1{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: var(Serif	-font, Serif);
+    font-weight: bold;
+    margin-left: 650px;
+    margin-top: -0.1px;
+}
+.menu-text{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: var(Serif	-font, Serif);
+    font-weight: 500;
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 600px;
+    line-height: 1.5;
+    color: #000000;
+}
+/*-----------------------------
+card  css setup
+ ------------------------------*/
+ .card {
+    width: 300px;
+    height: 400px;
+    margin: 80px;
+    border-radius: 10px;
+}
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}  
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+    text-align: left;
+  font-family: var(--Fantasy	-font, Fantasy);
+}
+.card-img{
+    width: 25px;
+    height: 25px;
+    
+   
+    margin-left: 160px;
+    margin-top: -70px;
+}
+.card-img-top {
+    width: 100%;
+    height: 3500px;
+}
+.card-last-btn {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 200px;
+    width: 3000px;
+    height: 300px;
+    text-decoration: double;
+}
+.card-last-btn .btn {
+    width: 200px;
+    height: 50px;
+    background-color: gold;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-family: var(--Serif    -font, Serif);
+    
+}
+ /*-----------------------------
+about us css setup
+ ------------------------------*/
+.about-section {
+    background-color: #FFF7EA;
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 416px;
+    margin-bottom: 40px;
+    height: 300px;
+    
+}
+.about-text1 {
+    position: absolute;
+   color: navy;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    margin-left: -70%;
+    margin-top: -150px;
+}
+.about-text2 {
+    position: absolute;
+    margin-left: -60%;
+    margin-top: -60px;
+   text-decoration: double;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.about-img1 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:-1050px;
+    margin-top: -180px;
+    
+}
+.about-img2 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -1050px;
+    margin-top: -125px;
+    
+}
+.about-text3{
+    position: absolute;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -880px;
+    margin-top: 100px;
+}
+.box-img2 {
+    position: absolute;
+
+    margin-left: 1200px;
+    margin-top: -10px;
+}
+.box-img1 {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -10px;
+}
+.box-img{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -10px;
+}
+.about-us2-text1 {
+    position: absolute;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 720px;
+    margin-top: 110px;
+   
+}
+.about-us2-text2 {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -60px;
+    text-decoration: double;
+   margin-top: 150px;
+   margin-left: 630px;
+    
+    color: #000000;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-us2-text3 {
+    position: absolute;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 500px;
+    margin-top: 200px;
+  
+}
+.about2-img1 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 680px;
+    margin-top: 100px;
+}
+.about2-img {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 680px;
+    margin-top: 130px;
+}
+ .about-us3-section {
+    background-color: #FFF7EA;
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 416px;
+    margin-bottom: 0px;
+    height: 300px;
+}
+.box-card1 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: -1010px;
+   margin-top: 10px;
+}
+.box-card2 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+.box-card3 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-right: -1010px;
+    margin-top: 10px;
+}
+.about-3img-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: -1190px;
+    margin-top: -100px;
+    z-index: 1;
+}
+ /*-----------------------------
+about us 3 css setup
+ ------------------------------*/
+
+.ab3text-1 {
+    position: absolute;
+    color: #000000;
+    margin-left: 220px;
+    margin-top: -215px;
+    text-decoration: double;
+    font-family: var(--Cursive-font, Cursive);
+}
+.ab3text-2 {
+    position: absolute;
+    color:orange;
+    margin-left: 220px;
+    margin-top: -180px;
+    font-family: var(--Serif	-font, Serif);
+    font-weight: 500;
+    width: 600px;
+    line-height: 1.5;
+}
+.ab3-line1 {
+    position: absolute;
+    
+    background-color: #FF6B00;
+    margin-top: -150px;
+    margin-left: 100px;
+    z-index: 1;
+}
+.ab3text-3 {
+    position: absolute;
+    color: #000000;
+    margin-left: 100px;
+    margin-top: -120px;
+    font-family: var(--Serif	-font, Serif);
+    font-weight: 500;
+    width: 600px;
+    line-height: 1.5;
+    font-size: 13px;
+   font-style: italic;
+}
+.about-3img-2 {
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    margin-left: -150px;
+    margin-top: -100px;
+    z-index: 1;
+}
+.about-3img-3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+   margin-right: -850px;
+    margin-top: -100px;
+    z-index: 1;
+}
+.ab3text-4 {
+    position: absolute;
+    color: #000000;
+    margin-left: 750px;
+    margin-top: -215px;
+    text-decoration: double;
+    font-family: var(--Cursive-font, Cursive);
+}
+.ab3text-5 {
+    position: absolute;
+    color:orange;
+    margin-left: 750px;
+    margin-top: -180px;
+    font-family: var(--Serif	-font, Serif);
+    font-weight: 500;
+    width: 600px;
+    line-height: 1.5;
+}
+.ab3-line2 {
+    position: absolute;
+    
+    background-color: #FF6B00;
+    margin-top: -150px;
+    margin-left: 620px;
+    z-index: 1;
+}
+.ab3text-6 {
+    position: absolute;
+    color: #000000;
+    margin-left: 620px;
+    margin-top: -120px;
+    font-family: var(--Serif	-font, Serif);
+    font-weight: 500;
+    width: 600px;
+    line-height: 1.5;
+    font-size: 13px;
+   font-style: italic;
+}
+.ab3text-7 {
+    position: absolute;
+    color: #000000;
+    margin-left: 1230px;
+    margin-top: -215px;
+    text-decoration: double;
+    font-family: var(--Cursive-font, Cursive);
+}
+.ab3text-8 {
+    position: absolute;
+    color:orange;
+    margin-left: 1230px;
+    margin-top: -180px;
+    font-family: var(--Serif	-font, Serif);
+    font-weight: 500;
+    width: 600px;
+    line-height: 1.5;
+}
+.ab3-line3 {
+    position: absolute;
+    
+    background-color: #FF6B00;
+    margin-top: -150px;
+    margin-left: 1120px;
+    z-index: 1;
+}
+.ab3text-9 {
+    position: absolute;
+    color: #000000;
+    margin-left: 1110px;
+    margin-top: -120px;
+    font-family: var(--Serif	-font, Serif);
+    font-weight: 500;
+    width: 600px;
+    line-height: 1.5;
+    font-size: 13px;
+   font-style: italic;
+}
+/*-----------------------------
+about us 4 css setup
+ ------------------------------*/
+.about-us4-text1 {
+    position: absolute;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 760px;
+    margin-top: 110px;
+}
+.about4-img1 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.about4-img {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 700px;
+    margin-top: 130px;
+}
+.about-us4-text3 {
+    position: absolute;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+/*-----------------------------
+about us 4 css setup
+ ------------------------------*/
+
+.about-us5-section {
+    
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    
+    height: 300px;
+}
+.about-us-5-card {
+   
+    margin: 80px;
+    border-radius: 50px;
+}
+.au5card-image{
+    width: 850px;
+    height: 850px;
+    
+
+}
+.about-us-5-card1-bttn{
+    position: absolute;
+    margin-left: 870px;
+    margin-top:-215px;
+    width: 3000px;
+  height: 400px;
+    text-decoration: double;
+}
+.about-us-5-card1-bttn .btn {
+    width: 150px;
+    height: 60px;
+    background-color: gold;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-family: var(--Serif	-font, Serif);
+    
+}
+
+/*-----------------------------
+about last section  css setup
+ ------------------------------*/
+.about-us-last-section {
+   
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    height: 800px;
+    width: 1515px;
+}
+/*-----------------------------
+login form  css setup
+ ------------------------------*/
+ .about-us-last-section-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.form1 {
+    width: 1000px;
+    height: 800px;
+    
+    
+    justify-content: center;
+    margin-top: -450px;
+    z-index: 1;
+    
+}
+.about-us-last-section1 {
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    margin-left: 150px;
+  
+    margin-top: -750px;
+}
+.form-label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.pos-1, .pos-2, .pos-3, .pos-4, .pos-5, .pos-6 {
+    margin-top: 20px;
+}
+.pas7{
+    margin-top: -40px;
+    margin-left: 450px;
+    
+}
+.pas6{
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.col-12{
+    color: black;
+}
+.footer-cection{
+    background-color: black;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    
+}
+.last-img {
+    margin-top: -400px;
+    position: absolute;
+    
+}
+.input-class{
+    width: 250px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.login-btn{
+    margin-left: 350px;
+    margin-top: -45px;
+    color: yellow;
+    
+}
+#button-addon2 {
+    width: 100px;
+    height: 50px;
+    background-color: #FF6B00;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: var(--Serif	-font, Serif);
+}
+.form-control {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.footer-text1{
+    color: #ccc ;
+    z-index: 1;
+    margin-left: -1500px;
+    margin-top: -250px;
+}
+.footer-text2{
+    color: #ccc ;
+    z-index: 1;
+    margin-left: -450px;
+    margin-top: 250px;
+}
+.footer-text2 span{
+    color: orange;
+}
+.last-img-in-footer{
+    margin-left: -1800px;
+}
+.footer-text3{
+    margin-left: -1800px;
+    color: #FF6B00;
+}
+.last-img2{
+    margin-left: 700px;
+}
+.fst-1{
+   text-align: left;
+   margin-left: -1250px;
+   margin-top: -300px;
+   color: orange;
+}
+.fst-2 span{
+    color: orange;
+}
+.fst-2{
+    color: #ccc;
+}
